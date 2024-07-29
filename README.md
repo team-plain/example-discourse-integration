@@ -4,9 +4,9 @@ This is a small node app which integrates [Discourse](https://discourse.org/) wi
 
 This creates a new support request for topics posted in Discourse. For every subsequent post, it creates a event in the Plain thread and moves the thread back to todo.
 
-The idea is that this template can be adapted to how your Discourse community is organised and your ideal support workflow. For example you could add specific thread labels based on Discourse categories, automatically set priorities, assignees and much more. 
+The idea is that this template can be adapted to how your Discourse community is organised and your ideal support workflow. For example, you could add specific thread labels based on Discourse categories, automatically set priorities, assignees and much more. 
 
-If you'd like help getting this set up - just reach out to us via Plain or on help@plain.com.
+If you'd like help getting this set up, just reach out to us via Plain or on help@plain.com.
 
 ## Set-up
 
