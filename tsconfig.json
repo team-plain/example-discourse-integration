@@ -1,0 +1,19 @@
+// Sponsored by ChatGPT
+{
+	"compilerOptions": {
+		"target": "ES2021", // Use a modern JavaScript version
+		"module": "CommonJS", // CommonJS module system, typical for Node.js
+		"rootDir": "./src", // Root directory for TypeScript files
+		"outDir": "./dist", // Output directory for compiled JavaScript files
+		"moduleResolution": "node", // Module resolution strategy
+		"esModuleInterop": true, // Enables interoperability between CommonJS and ES Modules
+		"forceConsistentCasingInFileNames": true, // Ensure consistent casing in file names
+		"strict": true, // Enable all strict type-checking options
+		"skipLibCheck": true, // Skip type checking of declaration files
+		"noImplicitAny": true, // Prevent using implicit `any` types
+		"resolveJsonModule": true, // Allow importing JSON files
+		"allowSyntheticDefaultImports": true // Allow default imports from modules with no default export
+	},
+	"include": ["src/**/*"], // Include all TypeScript files in src
+	"exclude": ["node_modules", "dist"] // Exclude node_modules and dist folders
+}

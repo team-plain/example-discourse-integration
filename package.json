@@ -1,0 +1,21 @@
+{
+	"name": "buildkit-discourse-integration",
+	"version": "1.0.0",
+	"main": "dist/index.js",
+	"private": true,
+	"scripts": {
+		"build": "tsc",
+		"start": "node dist/index.js"
+	},
+	"dependencies": {
+		"@axiomhq/pino": "^1.0.0",
+		"@biomejs/biome": "^1.8.1",
+		"@team-plain/typescript-sdk": "^4.6.1",
+		"@types/express": "^4.17.21",
+		"@types/pino": "^7.0.5",
+		"assert-ts": "^0.3.4",
+		"fastify": "^4.27.0",
+		"pino": "^9.2.0",
+		"zod": "^3.23.8"
+	}
+}
