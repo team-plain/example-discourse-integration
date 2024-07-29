@@ -1,4 +1,4 @@
-# example-discourse-integration
+# Example Discourse → Plain Integration
 
 This is a small node app which integrates Plain with Discourse.
 
