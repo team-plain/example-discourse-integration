@@ -1,6 +1,6 @@
 # Example Discourse → Plain Integration
 
-This is a small node app which integrates Plain with Discourse.
+This is a small node app which integrates [Discourse](https://discourse.org/) with [Plain](https://plain.com).
 
 This creates a new support request for topics posted in Discourse. For every subsequent post, it creates a event in the Plain thread and moves the thread back to todo.
 
