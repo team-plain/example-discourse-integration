@@ -1,5 +1,5 @@
 {
-	"name": "buildkit-discourse-integration",
+	"name": "@team-plain/example-discourse-integration",
 	"version": "1.0.0",
 	"main": "dist/index.js",
 	"private": true,
